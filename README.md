@@ -60,8 +60,8 @@ SPRING CONTAINER HELPS In,
 
   Development process
   Step1. Configure your spring beans
-                <beans -->
-                    <bean id = "myCoach"  class ="com.luv2code.springDemo.BaseBallCoach">
+                <beans>
+                    <bean id = "myCoach"  class ="com.springcorefunctionality.springDemo.BaseBallCoach">
                     </bean>
                 </beans>
   Step2. Create a spring container  (Application Context)
