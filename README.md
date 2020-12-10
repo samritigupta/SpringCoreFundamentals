@@ -59,17 +59,17 @@ SPRING CONTAINER HELPS In,
   3. Java Source Code
 
   Development process
-  Step1. Configure your spring beans
+  - Step1. Configure your spring beans
                 <beans>
                     <bean id = "myCoach"  class ="com.springcorefunctionality.springDemo.BaseBallCoach">
                     </bean>
                 </beans>
-  Step2. Create a spring container  (Application Context)
-         - ClassPathXMLApplicationContext
+  - Step2. Create a spring container  (Application Context)
+       	 - ClassPathXMLApplicationContext
               ClassPathXMLApplicationContext context = new ClassPathXMLApplicationContext("ApplicationContext.xml");
          - AnnotationConfigApplicationContext
          - GenericWebApplicationContext
-  Step3. Retrieve beans from spring container
+  - Step3. Retrieve beans from spring container
          Coach theCoach = context.getBeans("myCoach",Coach.class);
 
 # Spring Beans
