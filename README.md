@@ -123,5 +123,8 @@ s3. Configure the DI in spring config file.
  - package com.springcorefunctionality.javaAnnotationQualifier -> When using Autowired if multiple implementaion of service exist. We can use Qualifier to pick the implementation
  - package com.springcorefunctionality.javaNoXML -> Demonsrates, We can configure IOC and DI without using XML, totally java code. Its done using @Bean.
  
- 
+ # Build And Run
+ - Download the project
+ - Run mvn clean build
+ - Each module has main method defined. Right click and 'Run as Java Application'
  
