@@ -101,9 +101,8 @@ SPRING CONTAINER HELPS In,
      
  # Dependency Injection
 The Client delegates calls to another object the responsibility of providing its dependencies. Outsource construction of objects.
-
-Inversion of control: create and manages object
-DI: Inject or provide object's dependencies.
+- Inversion of control: create and manages object
+- DI: Inject or provide object's dependencies.
 
 Types of Injection:
 	- Constructor Injection
