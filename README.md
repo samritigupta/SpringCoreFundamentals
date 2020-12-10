@@ -65,9 +65,9 @@ SPRING CONTAINER HELPS In,
                     </bean>
                 </beans>
   - Step2. Create a spring container  (Application Context)
-       	 - ClassPathXMLApplicationContext
-              ClassPathXMLApplicationContext context = new ClassPathXMLApplicationContext("ApplicationContext.xml");
-         - AnnotationConfigApplicationContext
+       	 - ClassPathXMLApplicationContext <br/>
+              ClassPathXMLApplicationContext context = new ClassPathXMLApplicationContext("ApplicationContext.xml"); <br/>
+         - AnnotationConfigApplicationContext <br/>
          - GenericWebApplicationContext
   - Step3. Retrieve beans from spring container
          Coach theCoach = context.getBeans("myCoach",Coach.class);
