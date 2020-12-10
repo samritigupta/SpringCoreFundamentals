@@ -64,7 +64,7 @@ SPRING CONTAINER HELPS In,
                     <bean id = "myCoach"  class ="com.springcorefunctionality.springDemo.BaseBallCoach">
                     </bean>
                 </beans>
-  - Step2. Create a spring container  (Application Context)
+  - Step2. Create a spring container  (Application Context) <br/>
        	 - ClassPathXMLApplicationContext <br/>
               ClassPathXMLApplicationContext context = new ClassPathXMLApplicationContext("ApplicationContext.xml"); <br/>
          - AnnotationConfigApplicationContext <br/>
