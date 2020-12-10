@@ -14,26 +14,26 @@
 
 	<!-- Define dependency/helper -->
 	<bean id="myFortuneService"
-		  class="com.love2code.springDemoDI.HappyFortuneService">
+		  class="com.springcorefunctionality.springDemoDI.HappyFortuneService">
 	</bean>
     
     <!-- define the dependency -->
 	<!-- if want to change to baseball coach then only change here no need source code to change -->
  	<!-- <bean id="myCoach"
- 		class="com.love2code.springDemoDI.TrackCoach">
+ 		class="com.springcorefunctionality.springDemoDI.TrackCoach">
 		<constructor-arg ref="myFortuneService"/>
  	</bean> -->
 
 	<!-- can read the email address and team from properties file instead of hard coding here
     <bean id="myCoach"
-        class="com.love2code.springDemoDI.CricketCoach">
+        class="com.springcorefunctionality.springDemoDI.CricketCoach">
 		<property name="fortuneService" ref="myFortuneService"/>
 		<property name="emailAddress" value="happy@gmail.com"/>
 		<property name="team" value="happyTeam"/>
     </bean> -->
 
 	<bean id="myCoach"
-		  class="com.love2code.springDemoDI.CricketCoach">
+		  class="com.springcorefunctionality.springDemoDI.CricketCoach">
 		<property name="fortuneService" ref="myFortuneService"/>
 		<property name="emailAddress" value="${foo.email}"/>
 		<property name="team" value="${foo.team}"/>

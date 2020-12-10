@@ -13,12 +13,12 @@
     <!-- define the dependency -->
 	<!-- if want to change to baseball coach then only change here no need source code to change -->
  	<bean id="myCoach"
- 		class="com.love2code.springDemo.TrackCoach">
+ 		class="com.springcorefunctionality.springDemo.TrackCoach">
  	</bean>
 
     <!--
     <bean id="myCoach"
-        class="com.love2code.springDemo.BaseballCoach">
+        class="com.springcorefunctionality.springDemo.BaseballCoach">
     </bean>
     -->
 
