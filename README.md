@@ -77,7 +77,7 @@ SPRING CONTAINER HELPS In,
    - i.e. one instance is created
    - Cached in memory
    - all request for bean will return a shared reference of the same bean.
-   - <bean scope="" >
+   - bean scope=""
    - For "prototype" scoped beans, Spring does not call the destroy method.
    - In contrast to the other scopes, Spring does not manage the complete lifecycle of a prototype bean.
      Lifecycle:  the container instantiates, configures, and otherwise assembles a prototype object, and hands it to the client, with no further record of that prototype instance.
